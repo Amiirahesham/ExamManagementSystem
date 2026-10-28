@@ -1,0 +1,11 @@
+# reservation_id|username|exam_date|exam_code|cur_question|score|status|rem_time(min)|pass_score|max_score
+1|shooter|2025-01-05|000-CCPP|22|850|4|10|700|1000
+2|shooter|2025-03-05|INT-WEB|||2||600|1000
+3|mona2000|2025-01-06|INT-WEB|||2||600|1000
+4|shooter|2025-01-07|PCAP|||2||800|1000
+# --- fixture additions (ids 5-9) ---
+5|ali100|2026-11-01|QUICK-C|||2||600|1000
+6|mona2000|2026-11-01|QUICK-C|||2||600|1000
+7|ali100|2026-11-02|000-CCPP|||2||700|1000
+8|ali100|2026-11-03|PCEP|||1||700|1000
+9|shooter|2026-11-04|QUICK-C|2||3|9|600|1000

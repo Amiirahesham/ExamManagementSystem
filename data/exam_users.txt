@@ -1,0 +1,5 @@
+# firstname|lastname|email|username|password_hash|role   (hashes: PBKDF2-HMAC-SHA256, see README)
+Youssef|Shawky|shooter@gmail.com|shooter|pbkdf2-sha256$100000$9b9a2048fe1be8882bdb71084ff9e6c3$1527cacb225571b255de6e6b5e388a315972b5d1553dec6412e0ea0c40bb6b89|STUDENT
+Ali|Elhoseny|ah@link.net|ali100|pbkdf2-sha256$100000$edc56a6a660162ba3fd00e198b253fda$ef313a1bc222238905f824987b990598a43c646e7a5d5db4380a15e1ee879c08|STUDENT
+Mona|Ibrahim|mona2000@gmail.com|mona2000|pbkdf2-sha256$100000$d338907f43ef55f703cd5b4fe1d6e35c$df8f36ee2f705d95e2b14117038497bba7a1eef913d69d84e387343c3f2e6ae3|STUDENT
+System|Administrator|admin@exam.local|admin|pbkdf2-sha256$100000$e20ef390904242abb15fa85f019d03db$0a53f09ccc97af496ceab032f5d05d363a860a7878fcc63fbb297bd00fec53fb|ADMIN

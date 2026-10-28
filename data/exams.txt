@@ -1,0 +1,7 @@
+# exam_code|exam_name|exam_time(min)|max_score|pass_score
+000-CCPP|Introduction to programming using C and C++|90|1000|700
+INT-WEB|HTML and CSS|60|1000|600
+PCEP|Certified Entry-Level Python|40|1000|700
+PCAP|Certified Associate Python|65|1000|800
+# --- fixture addition (not in the workbook): small exam that the 3 workbook questions can satisfy ---
+QUICK-C|C Language Quick Check|15|1000|600

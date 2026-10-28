@@ -1,0 +1,7 @@
+# subject_code|section_code|section_name
+00C|001|Operators
+00C|002|Control Flow
+00C|003|Arrays
+00CPP|001|Encapsulation
+00CPP|002|Inheritance
+00CPP|003|Polymorphism

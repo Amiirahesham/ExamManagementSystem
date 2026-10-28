@@ -1,0 +1,10 @@
+# res_id|quest_no|quest_real_no|quest_score|subject_code|section_code
+# Reservation 1: the workbook's original 4-column rows (subject/section resolved through the exam).
+1|1|5|1
+1|2|3|0
+1|3|2|1
+1|4|1|1
+# Reservation 9: interrupted QUICK-C attempt in the extended 6-column format.
+9|1|2|0|00C|001
+9|2|3|0|00C|002
+9|3|1|0|00C|001

@@ -1,0 +1,11 @@
+build/
+*.o
+exam_student
+hash_password
+tests/run_tests
+*.tmp
+*.bak
+bin/
+obj/
+*.layout
+*.depend

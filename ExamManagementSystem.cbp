@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ExamManagementSystem - Student (C++14)" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Student App">
+				<Option output="bin/exam_student" prefix_auto="0" extension_auto="1" />
+				<Option object_output="obj/app/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="--data data" />
+				<Option working_dir="." />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+				</Linker>
+			</Target>
+			<Target title="Tests">
+				<Option output="bin/run_tests" prefix_auto="0" extension_auto="1" />
+				<Option object_output="obj/tests/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="data" />
+				<Option working_dir="." />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+				</Linker>
+			</Target>
+			<Target title="Hash Tool">
+				<Option output="bin/hash_password" prefix_auto="0" extension_auto="1" />
+				<Option object_output="obj/hash/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="" />
+				<Option working_dir="." />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++14" />
+			<Add option="-Wall" />
+			<Add option="-Wextra" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="main.cpp">
+			<Option target="Student App" />
+		</Unit>
+		<Unit filename="src/Answer.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/Exam.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/ExamDetail.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/ExamManager.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/ExamReservation.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/ExamResult.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/ExamSession.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/FileManager.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/MultipleChoiceQuestion.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/PasswordHasher.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+			<Option target="Hash Tool" />
+		</Unit>
+		<Unit filename="src/Platform.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+			<Option target="Hash Tool" />
+		</Unit>
+		<Unit filename="src/Question.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/RunningQuestion.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/Section.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/SingleChoiceQuestion.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/Student.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/Subject.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/User.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="src/Util.cpp">
+			<Option target="Student App" />
+			<Option target="Tests" />
+			<Option target="Hash Tool" />
+		</Unit>
+		<Unit filename="tests/test_student.cpp">
+			<Option target="Tests" />
+		</Unit>
+		<Unit filename="tools/hash_password.cpp">
+			<Option target="Hash Tool" />
+		</Unit>
+		<Unit filename="include/Answer.h" />
+		<Unit filename="include/AppContext.h" />
+		<Unit filename="include/Exam.h" />
+		<Unit filename="include/ExamDetail.h" />
+		<Unit filename="include/ExamException.h" />
+		<Unit filename="include/ExamManager.h" />
+		<Unit filename="include/ExamReservation.h" />
+		<Unit filename="include/ExamResult.h" />
+		<Unit filename="include/ExamSession.h" />
+		<Unit filename="include/ExamTimer.h" />
+		<Unit filename="include/FileManager.h" />
+		<Unit filename="include/MultipleChoiceQuestion.h" />
+		<Unit filename="include/OptionalInt.h" />
+		<Unit filename="include/PasswordHasher.h" />
+		<Unit filename="include/Platform.h" />
+		<Unit filename="include/Question.h" />
+		<Unit filename="include/RunningAnswer.h" />
+		<Unit filename="include/RunningQuestion.h" />
+		<Unit filename="include/Section.h" />
+		<Unit filename="include/SingleChoiceQuestion.h" />
+		<Unit filename="include/Student.h" />
+		<Unit filename="include/Subject.h" />
+		<Unit filename="include/User.h" />
+		<Unit filename="include/Util.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

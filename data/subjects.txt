@@ -1,0 +1,4 @@
+# subject_code|subject_name|hours
+00C|C Language|30
+00CPP|C++ Language|30
+PCEP|Entry-Level Python|30

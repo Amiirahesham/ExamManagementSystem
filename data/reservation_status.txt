@@ -1,0 +1,4 @@
+1|Reserve
+2|Active
+3|Running
+4|Finish

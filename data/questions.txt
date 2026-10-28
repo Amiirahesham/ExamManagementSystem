@@ -1,0 +1,4 @@
+# subject_code|section_code|question_no|question_header|question_type   (1 single, 2 multiple)
+00C|001|1|Which of the following comments about the ++ operator are correct?|1
+00C|001|2|Given b = 110 and c = 20, what is the value of 'a' after execution of the expression a = b = c*=5?|1
+00C|002|3|which statement can use to make a branching ?|2

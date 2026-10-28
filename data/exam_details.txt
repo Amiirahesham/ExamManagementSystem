@@ -1,0 +1,8 @@
+# exam_code|subject_code|section_code|no_questions
+000-CCPP|00C|001|5
+000-CCPP|00C|002|10
+000-CCPP|00CPP|001|5
+000-CCPP|00CPP|002|10
+# --- fixture addition ---
+QUICK-C|00C|001|2
+QUICK-C|00C|002|1
